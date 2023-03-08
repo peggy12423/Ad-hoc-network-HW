@@ -15,6 +15,14 @@ impratical assumptions for blind rendezvous. Finally, they propose a new framewo
 6.In the past, there are few papers considered the influence of nodes’ mobility. In this paper, primary users(PUs) and secondary users(SUs) in CRAHN are regarded as static nodes during channel-hopping.considering the situation that SU is unavailable during channel-hopping.A channel will become unavailable to a SU in some situation.
 7.A sequence adjustment mechanism is proposed to avoid two SU senders that are not in each other's sensing range hop to the same channel at the same time. That will resulting in collisions, delay or failure of rendezvous.
 ## Weakness （缺點問題漏洞）
-
-
+1.In a dense-node high-traffic CRAHN, the four factors usually affect the channel status simultaneously, but it does not mention successful rate of rendezvous and degree of influence.
+2.By intelligently reasoning the possible scenarios and adjusting parameters dynamically. However, the practical scenario may face some new situation. The setting of parameter may not confront to the scenario requirements.
+3.In the RTS collision avoidance method proposed in this paper, Not-Clear-To-Send(NCTS) notify the sender that someone is competing for the same receiver. They do not discuss the situation caused by NCTS packet loss.
+4.In the simulation experiment, PUs and SUs are randomly distributed in the simulation area, and the simulation results of specific distribution conditions are not experienced.
+5.When the packet size of SU increases, the rendezvous protocolS will gain better performance. But they cause increasing transmission time and impacting the performance of data transmissions. The trade-off parameters between the two are still unknown.
 ## Comments（改善方法）
+1.Observe the status of the channel.In addition, analyze the successful rendezvous rate and the corresponding TTR.
+2.They have to operate the experiment in real scene to know the relevant parameter settings.
+3.A Time-out mechanism can be designed to retransmit NCTS packets after a certain time.
+4.According to the specific distribution requirements, the protocol proposed in this paper is experimentally verified.
+5.Experiment the transmission time of different packet sizes and the performance of the rendezvous protocol to obtain the optimal trade-off parameters.
