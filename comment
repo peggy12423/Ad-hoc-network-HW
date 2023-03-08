@@ -2,7 +2,8 @@ HW1
 A Practical Self-Adaptive Rendezvous Protocol in Cognitive Radio Ad Hoc Networks
 
 Summary
-
+In cognitive radio ad-hoc networks, two users can communicate when they meet on a channel. However, in real situations, the combined power will be affected by changes in the status of available channels, channel conflicts, user congestion, and the target user cannot use the channel.
+This paper proposes an analysis model framework to solve the problem of affecting the rendezvous power, and also proposes the Self-Adaptive Rendezvous Protocol to adapt to the dynamic network, which includes modules for channel state changes and data packet congestion, and also proposes a collision avoidance mechanism and rendezvous delay The compensation method, the results of the simulation test can increase the combined power of the user in the channel, shorten the delay time of the combined, and reduce the occurrence of congestion.
 Strength （優點）
 
 
