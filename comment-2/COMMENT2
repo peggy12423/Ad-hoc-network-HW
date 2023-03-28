@@ -1,5 +1,5 @@
 # HW2
-
+Predicting the effect of home Wi-Fi quality on QoE
 ## Summary
 Whenever Wi-Fi quality being poor will degrades the Quality of Experience (QoE).
 Detecting Wi-Fi quality degrades QoE before users call is extremely important for residential Internet Service Providers (ISPs).
@@ -8,7 +8,7 @@ Thier contributions include developing a method to detect instances of poor QoE 
 ## Strength （優點）
 1.
 
-## Weakness （缺點問題漏洞）
+##　Weakness （缺點問題漏洞）
 1.
 ## Comments（改善方法）
 1.
