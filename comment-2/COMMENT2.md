@@ -14,6 +14,9 @@ Thier contributions include developing a method to detect instances of poor QoE 
 6.They map application QoS metrics into an estimated QoE, and denote the application QoS to QoE model as a function.
 
 ## Weakness （缺點問題漏洞）
-1.
+1.They excute automated tests with some applications.They use the command line to perform RTC tests with a pre-recorded audio/video sample.The setup closely resembles a real user environment. However,The setting is still slightly off in a real environment.
+2.They denote the applicaation QoS to QoE model as a function. But the models output an estimate of the absolute MOS. The estimate of MOS is uncertainly accurate for the customer QoE.
+3.
 ## Comments（改善方法）
-1.
+1.The expiriment uses the pre-recorded audio/vedio streams, they should consider transmission delay in a real scenes.
+2.Making the experiment for contrasting QoE and estimate of the absolute MOS by model. Anylyze both of them relative and deviation.
