@@ -16,7 +16,8 @@ Thier contributions include developing a method to detect instances of poor QoE 
 ## Weakness （缺點問題漏洞）
 1.They excute automated tests with some applications.They use the command line to perform RTC tests with a pre-recorded audio/video sample.The setup closely resembles a real user environment. However,The setting is still slightly off in a real environment.
 2.They denote the applicaation QoS to QoE model as a function. But the models output an estimate of the absolute MOS. The estimate of MOS is uncertainly accurate for the customer QoE.
-3.
+3.The difference in frequency between applications is due to the application sensitivity to the Wi-Fi impairments.On other predictors, this only occurs when they also observe interference.
 ## Comments（改善方法）
 1.The expiriment uses the pre-recorded audio/vedio streams, they should consider transmission delay in a real scenes.
 2.Making the experiment for contrasting QoE and estimate of the absolute MOS by model. Anylyze both of them relative and deviation.
+3.They have to consider interference of Wi-Fi, and conquer it.
