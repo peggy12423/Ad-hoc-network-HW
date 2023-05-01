@@ -16,6 +16,6 @@ Sometimes, GPS is unavailable or inaccurate in urban environments. In the paper,
 3. SenSpeed system has to use the accelerometer for the vehicle acceleration and the gyroscope for the vehicle angular speed. If one of them is not available, it may caused the system estimated the vehicle speed inaccurately.
 
 ## Comments（改善方法）
-1.Analyze the conditions of the two experimental cities. Add more urban scenarios to the experiment for increasing the diversity of experimental scenes.
+1. Analyze the conditions of the two experimental cities. Add more urban scenarios to the experiment for increasing the diversity of experimental scenes.
 2. They should capture as many as possible time points, called reference points, which can be calculated acceleration errors between each two adjacent points. After knowing these acceleration errors, the integral values can be corrected to get closer to the true speeds.
 3. They must use alternatives in case of equipment failure, such as installing other equipment to evaluate the acceleration and the angular speed.
