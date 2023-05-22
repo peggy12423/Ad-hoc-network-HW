@@ -10,7 +10,7 @@ In this paper, they propose a real-time approach to detect the moving tags in th
 1. They are the first to propose a moving tag detection scheme for tag monitoring by leveraging the physical-layer features.
 2. They solution is able to accurately detect the motion status of all tags, by referring to the physical-layer features.
 3. They implemented a prototype system and evaluated its performance in realistic settings.
-4. 
+4. They study to extract physical-layer features from 2-collision and 3-collision slots. That can efficiently resolve all the tags in the collision slots and identify more tags in a frame.
 5. 
 
 ## Weakness （缺點問題漏洞）
