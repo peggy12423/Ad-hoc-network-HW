@@ -11,7 +11,7 @@ In this paper, they propose a real-time approach to detect the moving tags in th
 2. They solution is able to accurately detect the motion status of all tags, by referring to the physical-layer features.
 3. They implemented a prototype system and evaluated its performance in realistic settings.
 4. They study to extract physical-layer features from 2-collision and 3-collision slots. That can efficiently resolve all the tags in the collision slots and identify more tags in a frame.
-5. 
+5. They use a matrix to depict the phase distribution of the two-dimensional phase profiles. With this scheme, the tags can be accurately detected.
 
 ## Weakness （缺點問題漏洞）
 1. 
