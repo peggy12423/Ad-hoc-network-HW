@@ -14,11 +14,11 @@ In this paper, they propose a real-time approach to detect the moving tags in th
 5. They use a matrix to depict the phase distribution of the two-dimensional phase profiles. With this scheme, the tags can be accurately detected.
 
 ## Weakness （缺點問題漏洞）
-1. 
-2. 
-3. 
+1. Due to manufacturing imperfection, BLF varies among different tags. But in the paper, it does not mention what is different between tags. 
+2. Since the time interval between the RN16 period and the EPC-ID period is very small, this paper considers the position and wireless environment as unchanged. However, it is uncertain whether omitting the EPC-ID signal will affect the extraction of physical-layer features.
+
 
 ## Comments（改善方法）
-1. 
-2.
-3. 
+1. In this paper, it is necessary to design experiments to detect the differences among tags and determine whether such differences would affect the efficiency of detecting tag motion status.
+2. Experimental design is employed to determine whether different positions and wireless environments affect the extraction of physical-layer features. The experiments are conducted to compare the results when including the EPC-ID signal and when omitting the EPC-ID signal.
+
